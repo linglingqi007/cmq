@@ -1,0 +1,22 @@
+{
+    "name": "tiger/cmq",
+    "keywords": ["cmq", "qcloud"],
+    "authors": [
+        {
+            "name": "If",
+            "email": "if.true.else@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tiger\\CMQ\\": "src"
+        }
+    }
+}
