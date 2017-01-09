@@ -15,7 +15,7 @@ Tiger\CMQ\CMQServiceProvider::class,
 生成配置文件
 
 `
-artisan vendor:publish
+artisan vendor:publish --provider=Tiger\\CMQ\\CMQServiceProvider --tag=config
 `
 
 修改config/cmq.php 把对应的值替换
